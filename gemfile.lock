@@ -1,0 +1,25 @@
+GIT
+  remote: git://github.com/rails/exception_notification.git
+  revision: 192a49a02d63d28b23ed41cebadfedd490929cf1
+  specs:
+    exception_notification (1.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rails (6.0.3.1)
+      actionmailer (~> 6.0.2.0, != 6.0.3.0)
+      actionpack (>= 6.0.3.0)
+      activerecord (= 6.0.3.1)
+      activeresource (<= 6.0.2.1,>=6.0.3.1)
+      activesupport (= 6.0.3.1)
+      bundler (~> 1.0)
+      railties (= 6.0.3.1)
+	  franco (= 7.0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rails (= 6.0.3.1)
+  rspec-rails (>= 2.0.1)

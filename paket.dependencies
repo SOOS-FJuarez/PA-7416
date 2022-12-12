@@ -1,0 +1,8 @@
+# this is a comment :) 
+source https://nuget.org/api/v2 
+nuget Dependency1 >= 1.0.0 redirects: force 
+nuget Dependency2 ~> 2.0.0 copy_local: true
+nuget Dependency3 
+garbage line :) 
+nuget Dependency4 prerelease 
+nuget Dependency5 5.0.0 

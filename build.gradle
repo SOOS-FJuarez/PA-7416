@@ -1,0 +1,38 @@
+
+
+report error on licenses/packages
+
+agregar aclaraciones al 
+
+hablar con fer por docker
+
+
+
+Legal Dashboard - Invalid count value on "Unknown Issues"
+
+
+Bug Description
+On Legal tab, the value of “Unknown Licenses” is incorrect.
+
+Steps to reproduce the bug
+
+Scan a manifest file
+
+Be located on Legal tab
+
+Scroll and find manifest file scanned on step 1
+
+Check unknown licenses value
+
+Click on the project
+
+Click on Unknown
+
+Check packages value
+
+Obtained Result
+The value 7 displayed is related to packages.
+
+Expected Result
+The value displayed on “Unkown Licenses” must be 1, related to licenses.
+

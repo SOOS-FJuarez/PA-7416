@@ -1,0 +1,11 @@
+NUGET
+  remote: https://api.nuget.org/v3/index.json 
+    Dependency1 (1.0.0) 
+    Dependency2 (>= 2.0.0) 
+      TransitiveDependency(0.0.0) 
+    Dependency3 (<= 3.0.0) - restriction: || (== thing1.0) (== thing2.0) 
+      TransitiveDependency(0.0.0) 
+      TransitiveDependency(0.0.0) 
+GITHUB 
+  remote: remotething 
+    It shouldn't grab (this line)
